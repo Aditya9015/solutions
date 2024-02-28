@@ -2,7 +2,7 @@ class Solution {
 public:
     int shipWithinDays(vector<int>& A, int M) {
         
-        int start=0,end,mid,ans, N=A.size();
+        int start=0,end,mid,ans=0, N=A.size();
         //code here
         for(int i=0;i<N;i++)
         {
